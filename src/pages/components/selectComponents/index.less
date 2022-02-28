@@ -1,0 +1,24 @@
+.item{
+    padding:0.5rem 0rem ;
+    display: flex;
+    width: 100%;
+}
+.flexGrow{
+    // flex-grow:1;
+}
+
+
+.separate{
+    & > :global(.ant-input-group-wrapper){
+        & > :global(.ant-input-wrapper){
+            & > :global(.ant-input){
+                border: 1px solid #d9d9d9;
+            }
+            & > :global(.ant-input-group-addon){
+                & > :global(.ant-btn){
+                    // margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
